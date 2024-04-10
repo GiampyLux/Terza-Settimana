@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background: rgb(58,180,179);
+    background: linear-gradient(90deg, rgba(58,180,179,1) 35%, rgba(57,181,180,1) 37%, rgba(38,209,201,0.6223739495798319) 90%);
+}
+
+.stili {
+    text-align: center;
+    margin: 25% auto;
+    box-sizing: border-box;
+    max-width: 400px;
+    padding: 20px;
+}
+
+#tasks {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tasks li {
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tasks li:last-child {
+    margin-bottom: 0;
+}
